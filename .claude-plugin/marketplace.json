@@ -1,0 +1,46 @@
+{
+    "name": "jcttech-tools",
+    "owner": {
+        "name": "JCT Tech"
+    },
+    "metadata": {
+        "description": "JCT Tech development workflow plugins for Claude Code"
+    },
+    "plugins": [
+        {
+            "name": "claude-spec-flow",
+            "source": {
+                "source": "url",
+                "url": "https://github.com/jcttech/claude-spec-flow.git"
+            },
+            "description": "Spec-driven development workflow with 16 prompts and 8 tools for GitHub project management",
+            "version": "0.1.0",
+            "category": "workflow",
+            "homepage": "https://github.com/jcttech/claude-spec-flow",
+            "tags": [
+                "spec",
+                "github",
+                "project-management",
+                "milestones",
+                "issues"
+            ]
+        },
+        {
+            "name": "membank",
+            "description": "Persistent memory for Claude — stores, retrieves, and manages knowledge across sessions",
+            "version": "0.1.0",
+            "category": "productivity",
+            "source": {
+                "source": "url",
+                "url": "https://github.com/jcttech/claude-membank.git",
+                "path": "membank-plugin"
+            },
+            "homepage": "https://github.com/jcttech/claude-membank",
+            "tags": [
+                "memory",
+                "mcp",
+                "knowledge-management"
+            ]
+        }
+    ]
+}
