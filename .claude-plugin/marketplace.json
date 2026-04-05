@@ -28,7 +28,7 @@
         {
             "name": "membank",
             "description": "Persistent memory for Claude — stores, retrieves, and manages knowledge across sessions",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "category": "productivity",
             "source": {
                 "source": "url",
