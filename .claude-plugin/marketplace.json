@@ -32,7 +32,7 @@
             "category": "productivity",
             "source": {
                 "source": "git-subdir",
-                "url": "jcttech/claude-membank",
+                "url": "https://github.com/jcttech/claude-membank.git",
                 "path": "membank-plugin"
             },
             "homepage": "https://github.com/jcttech/claude-membank",
