@@ -31,8 +31,8 @@
             "version": "0.1.1",
             "category": "productivity",
             "source": {
-                "source": "url",
-                "url": "https://github.com/jcttech/claude-membank.git",
+                "source": "git-subdir",
+                "url": "jcttech/claude-membank",
                 "path": "membank-plugin"
             },
             "homepage": "https://github.com/jcttech/claude-membank",
