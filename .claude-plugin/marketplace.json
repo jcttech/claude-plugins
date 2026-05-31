@@ -41,6 +41,25 @@
                 "mcp",
                 "knowledge-management"
             ]
+        },
+        {
+            "name": "csm",
+            "description": "claude-session-manager v4.0.0 — bridges Claude Code hooks to the in-pane csm CLI and exposes inter-agent messaging tools via http MCP",
+            "version": "4.0.0",
+            "category": "workflow",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/jcttech/claude-session-manager.git",
+                "path": "csm-plugin"
+            },
+            "homepage": "https://github.com/jcttech/claude-session-manager",
+            "tags": [
+                "session-management",
+                "hooks",
+                "mcp",
+                "multi-agent",
+                "zellij"
+            ]
         }
     ]
 }
